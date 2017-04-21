@@ -1,8 +1,9 @@
 # Notes
 
-## Basics
+## ToC
+* [Lambda Calculus](#lambda-calculus)
 
-### Lambda Calculus
+## Lambda Calculus
 
 * referential transparency (pure functions):
     * will always return the same result given the same inputs
