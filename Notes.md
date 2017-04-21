@@ -2,6 +2,7 @@
 
 ## ToC
 * [Lambda Calculus](#lambda-calculus)
+* [Haskell Basics](#haskell-basics)
 
 ## Lambda Calculus
 
@@ -27,3 +28,15 @@
         * e.g. `1` is in _normal form_, `1 + 1` is not because it can be further reduced
         * reducible expressions are also called **redexes**
         * reduction also is sometimes referred to as _normalizing_ or _executing_
+
+## Haskell Basics
+* ghci:
+    * `:l` <filename> - loads a file into the repl
+    * `:i` <function> - gives information for function (associativity, precedence, type)
+    * `:r` reload modules
+    * `:m` back to module (gets rid of imports)
+    * `:q` ...common you already know what this does...
+* `$`-Operator:
+    * basically a pipe to avoid parentheses
+    * delays function application, so that the expression to the right of `$`
+      is evaluated first
