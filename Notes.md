@@ -22,3 +22,8 @@
     * application:
         * used to reduce lambdas
         * binds the argument to whatever the lambda is applied to
+    * Normal form:
+        * an expression is in normal form, when no more evaluation steps can be taken
+        * e.g. `1` is in _normal form_, `1 + 1` is not because it can be further reduced
+        * reducible expressions are also called **redexes**
+        * reduction also is sometimes referred to as _normalizing_ or _executing_
