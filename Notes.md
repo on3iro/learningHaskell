@@ -18,3 +18,6 @@
     * lambda abstraction is an anonymous function
     * combinator:
         * lambda term with no free variables
+    * application:
+        * used to reduce lambdas
+        * binds the argument to whatever the lambda is applied to
