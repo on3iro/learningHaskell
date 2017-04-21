@@ -40,3 +40,8 @@
     * basically a pipe to avoid parentheses
     * delays function application, so that the expression to the right of `$`
       is evaluated first
+* _argument_ vs _parameter_
+    * _parameter_ represents the value that will be passed to the function
+    * _argument_ is the input value a function is applied to
+    * _parameter_ is bound to the value of and _agument_ during function
+      application
