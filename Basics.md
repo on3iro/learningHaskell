@@ -1,8 +1,9 @@
-# Notes
+# Basics
 
 ## ToC
 * [Lambda Calculus](#lambda-calculus)
 * [Haskell Basics](#haskell-basics)
+* [Types](#types)
 
 ## Lambda Calculus
 
@@ -36,6 +37,8 @@
     * `:r` reload modules
     * `:m` back to module (gets rid of imports)
     * `:q` ...common you already know what this does...
+    * `:t` type of an expression
+    * :set prompt "prompt"
 * `$`-Operator:
     * basically a pipe to avoid parentheses
     * delays function application, so that the expression to the right of `$`
@@ -45,3 +48,7 @@
     * _argument_ is the input value a function is applied to
     * _parameter_ is bound to the value of and _agument_ during function
       application
+
+## Types
+* `::` basically stands for 'has the type' -> type signature
+* `"Hello! :: [Char]"` -> _String_ is a type alias for a list of _Char_
