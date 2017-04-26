@@ -4,3 +4,4 @@ I decided to learn haskell with the [Haskell Book](http://haskellbook.com/). We 
 
 [Basics](Basics.md)
 [Strings](Strings.md)
+[Curry](Curry.md)
